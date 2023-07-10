@@ -1,0 +1,58 @@
+.jumbotron{
+
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEWJz/C4QSRIAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=);
+    text-align: center;
+    margin-top: 30px;
+}
+
+#Email{
+
+    width: 300px;
+    justify-content: center;
+
+}
+
+.form-inline{
+
+     
+    display:flex;
+    justify-content: center;
+    
+}
+
+#sub{
+    margin-left: 7px;
+}
+
+#appSummary{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+.card-img-top{
+
+    width:100%;
+    height: 300px;
+}
+
+#store{
+
+    width: 200px;
+}
+
+#footer{
+
+    background-color: aqua;
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+body{
+
+    position: relative;
+}
