@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Converter</title>
+    <link rel="stylesheet" href="style.css">
+
+        
+</head>
+<body>
+    <div class="converter-container">
+        <h1>File Converter</h1>
+        
+        <label class="input-label" for="fileInput">Select a file:</label>
+        <input type="file" id="fileInput" accept=".doc,.docx,.pdf,.png,.jpg,.jpeg" />
+        <div class="error-message" id="error"></div>
+        
+        <button class="convert-button" onclick="convertToTxt()">Convert to TXT</button>
+        <button class="convert-button" onclick="convertToPdf()">Convert to PDF</button>
+        <button class="convert-button" onclick="convertToDocx()">Convert to DOCX</button>
+        <button class="convert-button" onclick="convertToJpg()">Convert to JPG</button>
+        
+        <div id="result"></div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
